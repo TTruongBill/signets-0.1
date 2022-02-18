@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACN,QAAQ,EAAE,KAAK;EACf,KAAK,EAAE,KAAK;EACZ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "src/FabIcon.scss"
+    ],
+    "names": [],
+    "file": "FabIcon.css"
+}

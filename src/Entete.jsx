@@ -6,8 +6,12 @@ export default function Entete() {
         <header className='Entete'>
             <p>Signets</p>
             <nav>
-                <a href="#">Contactez-nous</a>
-                <Avatar alt="" src="/images-dossier/logo.png" />
+                <a href="#">Nom Utilisateur</a>
+                <Avatar 
+                className="Profile" 
+                alt="" 
+                sx={{ width: 32, height: 32 }}
+                src="/images-dossier/logo.png" />
             </nav>
         </header>
     );

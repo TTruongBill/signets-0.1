@@ -1,16 +1,65 @@
 .Affiche {
-  width: 30vw;
-  height: 30vh;
-  margin: 10px;
+  width: 300px;
+  height: 169px;
+  margin: 0px 8px 108px 8px;
 }
 
 .Affiche_image {
   width: 100%;
   height: 100%;
+  background-color: #d34444;
 }
 
 .Affiche_info {
+  position: relative;
+  border-top: 1px solid black;
+  bottom: 5px;
   background-color: black;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.Affiche_info div {
+  padding-top: 4px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.Affiche_info p {
+  margin: 10px 0 0 0;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.SortIcon {
+  color: #cacaca;
+  background-color: rgba(0, 0, 0, 0.534);
+  border: solid transparent 2px;
+  border-radius: 50%;
+  position: relative;
+  top: 35px;
+  left: 7px;
+}
+
+.VertIconContainer {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.VertIconContainer :hover {
+  cursor: pointer;
+}
+
+.VertIconContainer .VertIcon {
+  color: #e9e9e9;
+  background-color: rgba(0, 0, 0, 0.233);
+  border: solid transparent 2px;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=Affiche.css.map */

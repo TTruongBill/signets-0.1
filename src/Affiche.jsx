@@ -3,18 +3,17 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 import SortIcon from '@mui/icons-material/Sort';
 
 export default function Affiche(props) {
-    console.log(props.pid)
     return (
-        
-      <div className="Affiche">  
-        <SortIcon variant='circular'/>
-        <img src={"/images-dossier/" + props.pid + ".png"} alt="{props.pid}" className="Affiche_image"></img>
-        <div className="Affiche_info">
-            <h1>{props.titre}</h1>
+      <article className="Affiche">  
+        <SortIcon className="SortIcon"/>
+        <img src={"/images-dossier/" + props.pid + ".jpg"} alt="{props.pid}" className="Affiche_image"></img>
+        <div className="Affiche_info" style={{backgroundColor: props.couleur}}>
+            <div>{props.titre}</div>
             <p>{props.date}</p>
-            <button><MoreVertIcon color="primary" variant='circular'/></button>
+            <button className='VertIconContainer'>
+              <MoreVertIcon className='VertIcon' color="primary" variant='circular'/>
+            </button>
         </div>
-       
-      </div>
+      </article>
     );
   }

@@ -1,0 +1,43 @@
+[
+    {
+        "id" : "Aff01",
+        "titre": "Walking Man",
+        "couleur": "LightCoral",
+        "date" : "Modifié : 3 février 2022"
+    },
+    {
+        "id" : "Aff02",
+        "titre": "Purple World",
+        "couleur": "BlueViolet",
+        "date" : "Modifié : 13 février 2022"
+    },
+    {
+        "id" : "Aff03",
+        "titre": "Pink City",
+        "couleur": "Orchid",
+        "date" : "Modifié : 11 janvier 2022"
+    },{
+        "id" : "Aff04",
+        "titre": "Forest",
+        "couleur": "CornflowerBlue",
+        "date" : "Modifié : 23 décembre 2021"
+    },
+    {
+        "id" : "Aff05",
+        "titre": "Crimson Moon",
+        "couleur": "Crimson",
+        "date" : "Modifié : 19 mai 2021"
+    },
+    {
+        "id" : "Aff06",
+        "titre": "Fantasy World",
+        "couleur": "Green",
+        "date" : "Modifié : 14 février 2022"
+    },
+    {
+        "id" : "Aff07",
+        "titre": "Watchtower",
+        "couleur": "DodgerBlue",
+        "date" : "Modifié : 23 décembre 2021"
+    }
+]
