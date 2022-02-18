@@ -1,14 +1,13 @@
 import "./Entete.scss";
+import Avatar from "@mui/material/Avatar";
 
 export default function Entete() {
     return (
         <header className='Entete'>
-            <h1>Signets</h1>
+            <p>Signets</p>
             <nav>
-            <a href="#">Contactez-nous</a>
-            <a href="#">
-            logo
-            </a>
+                <a href="#">Contactez-nous</a>
+                <Avatar alt="" src="/images-dossier/logo.png" />
             </nav>
         </header>
     );

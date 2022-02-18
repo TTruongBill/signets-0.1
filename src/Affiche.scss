@@ -1,0 +1,15 @@
+.Affiche {
+    width: 30vw;
+    height: 30vh;
+    margin: 10px;
+
+    &_image {
+        width: 100%;
+        height: 100%;
+    }
+
+    &_info{
+        background-color: black;
+        color: white;
+    }
+}
