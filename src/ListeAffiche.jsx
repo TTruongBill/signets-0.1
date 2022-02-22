@@ -6,7 +6,7 @@ export default function ListeAffiche(){
     return(
         <section className="ListeAffiche">
             {
-                lesAffiches.map(p => <Affiche key={p.id} pid={p.id} titre={p.titre} couleur={p.couleur} date={p.date} />)
+                lesAffiches.map(p => <Affiche key={p.id} pid={p.id} titre={p.titre} couleur={p.couleur} date={p.date} link={p.link}/>)
             }
         </section>
     )

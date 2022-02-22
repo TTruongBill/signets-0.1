@@ -8,7 +8,7 @@ export default function Affiche(props) {
         <SortIcon className="SortIcon"/>
         <img src={"/images-dossier/" + props.pid + ".jpg"} alt="{props.pid}" className="Affiche_image"></img>
         <div className="Affiche_info" style={{backgroundColor: props.couleur}}>
-            <div>{props.titre}</div>
+            <a href={props.link}>{props.titre}</a>
             <p>{props.date}</p>
             <button className='VertIconContainer'>
               <MoreVertIcon className='VertIcon' color="primary" variant='circular'/>

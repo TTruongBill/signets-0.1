@@ -4,7 +4,7 @@ import Avatar from "@mui/material/Avatar";
 export default function Entete() {
     return (
         <header className='Entete'>
-            <p>Signets</p>
+            <p><a href="https://github.com/k1polo/ex1-signets">Github de Tien</a></p>
             <nav>
                 <a href="#">Nom Utilisateur</a>
                 <Avatar 
