@@ -6,7 +6,7 @@ export default function Affiche(props) {
     return (
       <article className="Affiche">  
         <SortIcon className="SortIcon"/>
-        <img src={"/images-dossier/" + props.pid + ".jpg"} alt="{props.pid}" className="Affiche_image"></img>
+        <img src={"/images-dossier/" + props.pid + ".jpg"} alt={props.pid} className="Affiche_image"></img>
         <div className="Affiche_info" style={{backgroundColor: props.couleur}}>
             <a href={props.link}>{props.titre}</a>
             <p>{props.date}</p>
